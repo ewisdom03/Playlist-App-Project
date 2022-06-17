@@ -1,1 +1,9 @@
-<p>song-list works!</p>
+<div class="row mb-3" *ngFor="let song of mySongs">
+  <div class="col-md-12">
+    <a href="#" class="list-group-item clearfix">
+      <div class="float-left">
+        <h4 class="list-group-item-heading">{{song.title}}</h4>
+      </div>
+    </a>
+  </div>
+</div>
